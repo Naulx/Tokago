@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Tee Oversize Version 2 - TOKAGO</title>
+    <link rel="stylesheet" href="DK.css">
+    <style>
+        .Container {
+            /* border: 1px solid black; */
+            width: 1300px;
+            height: 1100px;
+            margin: auto;
+
+        }
+
+        .Pro{
+            border: 1px solid gray;
+            display: flex;
+            line-height: 40px;
+            font-size: larger;
+
+        }
+        .Img img {
+            width: 200px;
+            margin-right: 30px;
+        }
+
+        .Price-Product {
+            font-size: larger;
+            font-size: 20px;
+        }
+
+        .Product-price {
+            font-size: 20px;
+        }
+
+        .Pro-price {
+            color: red;
+        }
+
+        .Pro-sale {
+            color: red;
+        }
+
+        .Size-Menu li {
+            font-size: larger;
+            display: inline-block;
+            padding: 5px;
+            background-color: whitesmoke;
+        }
+
+        .Pro-sale {
+            background-color: gainsboro;
+            padding: 5px;
+        }
+
+        .Input-bottom input {
+            width: 110px;
+            padding: 10px;
+            list-style: none;
+            text-align: center;
+
+        }
+
+        .Product-price del {
+            color: gray;
+        }
+
+        .Note-Test input {
+            height: 120px;
+            width: 400px;
+            border:  1px solid gray;
+        }
+
+        .Content-2 {
+            display: flex;
+            font-size: 17px;
+            /* border: 1px solid black; */
+
+        }
+
+        .Cart {
+            border: 1px solid gainsboro;
+            padding: 10px;
+            font-size: larger;
+            margin-left: 160px;
+         
+        }
+
+        .TT a {
+            text-decoration: none;
+        }
+
+        .TT button {
+            border: 3px solid red;
+            background-color: red;
+            line-height: 50px;
+            width: 400px;
+
+        }
+
+        .TT button a {
+            text-decoration: none;
+            color: whitesmoke;
+            font-size: larger;
+        }
+
+        .TT button a:hover {
+            color: black;
+            font-size: larger;
+        }
+
+        .Back {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .Back a {
+            text-decoration: none;
+            color: red;
+            font-size: 18px;
+        }
+
+        .Back a:hover {
+            color: black;
+        }
+        .Price span{
+            float: right;
+            color: red;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="Top-Content">
+            <p>Miễn phí vận chuyển đơn hàng từ 300K</p>
+        </div>
+        <div class="Logo">
+            <img src="img/Logo.png" />
+        </div>
+        <div class="Header-Menu">
+            <ul>
+                <li><a href="index.html">TRANG CHỦ</a></li>
+                <li><a href="SP.html">SẢN PHẨM</a></li>
+                <li><a href="">BẢNG SIZE</a></li>
+                <li><a href="AB.html">VỀ TOKAGO</a></li>
+                <li><a href="DK.html">ĐĂNG KÝ / ĐĂNG NHẬP</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="Banner">
+        <img src="../CODE/img/Banner.jpg" alt="">
+    </div>
+    <div class="Content">
+        <h1> Giỏ hàng của bạn</h1>
+    </div>
+
+    <div class="Container">
+        <div class="Pro">
+            <div class="Img">
+                <img src="/CODE/img/TG-13.jpg" />
+            </div>
+            <div class="Contet-Pro-1">
+                <div class="Name-Pro">
+                    <h4>Tokago World Tee - Black </h4>
+                </div>
+                <div class="Product-price">
+                    <span class="Pro-price">150,000₫</span>
+                    <del>(210,000₫)</del>
+                </div>
+                <div class="Content-Menu">
+                    <ul class="Size-Menu">
+                        <li>
+                            <label for="data-size-p2">XL / Đen </label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="Input-bottom">
+                    <input id="quan-input" type="number" value="1" min="1">
+                </div>
+            </div>
+        </div>
+
+        <div class="Pro">
+            <div class="Img">
+                <img src="/CODE/img/TG-17.jpg" />
+            </div>
+            <div class="Contet-Pro-1">
+                <div class="Name-Pro">
+                    <h4>Tokasocial Tee - White </h4>
+                </div>
+                <div class="Product-price">
+                    <span class="Pro-price">150,000₫</span>
+                    <del>(210,000₫)</del>
+                </div>
+                <div class="Content-Menu">
+                    <ul class="Size-Menu">
+                        <li>
+                            <label for="data-size-p2">L / Trắng </label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="Input-bottom">
+                    <input id="quan-input" type="number" value="1" min="1">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="Pro">
+            <div class="Img">
+                <img src="/CODE/img/TG-11.jpg" />
+            </div>
+            <div class="Contet-Pro-2">
+                <div class="Name-Pro">
+                    <h4>Tokago Shadow Tee - Black</h4>
+                </div>
+                <div class="Product-price">
+                    <span class="Pro-price">150,000₫</span>
+                    <del>(210,000₫)</del>
+                </div>
+                <div class="Content-Menu">
+                    <ul class="Size-Menu">
+                        <li>
+                            <label for="data-size-p2">M / Đen </label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="Input-bottom">
+                    <input id="quan-input" type="number" value="1" min="1">
+                </div>
+            </div>
+        </div>
+
+        <div class="Content-2">
+            <div class="Note-1">
+                <h2>Ghi chú đơn hàng</h2>
+                <div class="Note-Test">
+                    <input type="text" placeholder="Ghi chú">
+                </div>
+                <br>
+                <div class="Note-2">
+                    <h2> Chính sách mua hàng</h2>
+                    <p>
+                        Sản phẩm được đổi/trả 1 lần duy nhất trong vòng 3 ngày kể từ ngày nhận hàng. <br>
+                        Sản phẩm đổi/trả phải là sản phẩm chưa qua sử dụng, không bị dơ bẩn, còn nguyên vẹn và chưa qua giặt
+                        giũ. <br>
+                        Trường hợp sản phẩm được đặt trong thời gian diễn ra chương trình khuyến mãi, sẽ không được áp dụng
+                        đổi <br>
+                        trả hay đổi size (trừ trường hợp là lỗi của TOKAGO). <br>
+                        Các sản phẩm quà tặng (móc khóa, stickers,...) được tặng kèm sẽ không được áp dụng chính sách đổi
+                        trả <br>
+                        trừ trường hợp sản phẩm bị lỗi sản xuất <br>
+                    </p>
+                </div>
+            </div>
+            <div class="Cart">
+                <h2> Thông tin đơn hàng</h2>
+                <br>
+                <hr>
+                <br>
+                <div class="Price">
+                    Tổng tiền: <span>450.000đ</span>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <div class="TT">
+                    <p>
+                        Phí vận chuyển sẽ được tính ở trang thanh toán. <br>
+                        Bạn cũng có thể nhập mã giảm giá ở trang thanh toán.<br>
+                    </p>
+                    <br>
+                    <button><a href="">Thanh toán</a></button>
+                </div>
+                <div class="Back">
+                    <a href="SP.html">Tiếp tục mua hàng</a>
+                </div>
+            </div>
+        </div> 
+        </div>
+
+    <footer>
+        <div class="Under">
+            <div class="N-1">
+                <div class="Footer-Content1">
+                    <h3>Giới Thiệu</h3>
+                </div>
+                <div class="Footer-Content2">
+                    <p>TOKAGO xuất hiện với "sứ mệnh" đem những sản phẩm "xịn xò" và chất lượng đến các cậu.
+                        Dù các cậu là ai, nam hay nữ, mập hay ốm, bao nhieeu tuổi,...thì cậu đều có thể tìm được
+                        những
+                        sản phẩm
+                        phù hợp với chính mình tại TOKAGO tụi tớ!</p>
+                </div>
+                <div class="Footer-Logo">
+                    <img src="img/Logo Footer.png" />
+                </div>
+            </div>
+
+            <div class="N-2">
+                <h3>Liên Kết</h3>
+                <div class="Footer-Menu">
+                    <ul>
+                        <li><a href="">Tìm kiếm</a></li>
+                        <li><a href="">Hướng dẫn mua hàng</a></li>
+                        <li><a href="">Chính sách đổi trả</a></li>
+                        <li><a href="">Giới thiệu</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="N-3">
+                <h3>Liên Hệ</h3>
+                <ul>
+                    <li>0935468857</li>
+
+                    <li>luandhvps21938@fpt.edu.vn</li>
+                </ul>
+            </div>
+        </div>
+        <div class="Footer-In4">
+            <p>Copyright © 2022 TOKAGO Powered by Naul </p>
+        </div>
+    </footer>
+</body>
+
+</html>

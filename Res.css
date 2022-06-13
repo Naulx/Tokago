@@ -1,0 +1,234 @@
+@media(max-width: 576px) {
+    *{
+        font-family: 'Quicksand', sans-serif!important;
+        margin: 0;
+        padding: 0;
+    }
+    .Container {
+        max-width: 540px;
+    }
+    .Container h1{
+        font-weight: 700;
+        font-size: 48px;
+        margin-left: 300px;
+    }
+    .Top-Content{
+        width: 1300px;
+        font-size: 32px;
+    }
+    .Logo{
+        width: 1300px;
+    }
+    .Logo img{
+        width: 500px;
+    }
+    .Icon-Header-Menu{
+        float: right;
+        margin-right: 250px;
+        width: 28px;
+        height: 28px;
+        color: black;
+        display: block;
+    }
+    .Header-Menu-Mobile{
+        display: block;
+        text-decoration: none;
+        font-size: 1.4em;
+        color: black;
+        padding: 8px 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 320px;
+        max-width: 100%;
+        background: whitesmoke;
+        transform: translateX(-100%);
+        margin-top: 150px;
+        /* margin-bottom: 1720px; */
+    }
+    .Header-Menu-Mobile ul{
+        display: block;
+        margin-top: 32px;
+        margin-left: 32px;
+        font-size: 24px;
+    }
+    .nav-input{
+        display: none;
+    }
+    .nav-input:checked ~ .Header-Menu-Mobile{
+        transform: translateX(0%);
+    }
+    .Icon-Close{
+        width: 28px;
+        height: 28px;
+        color: #666;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+
+    }
+    .Header-Menu{
+        display: none;
+    }
+   
+    .Banner{
+        width: 1300px;
+    }
+    .List-Products-1{
+        float: right;
+        display: block;
+        padding-left: 141px;
+        margin-right: -133px;
+    }
+    .List-Products-1 img{
+        width: 450px;
+       
+    }
+    .Name{
+        font-size: 28px;
+    }
+    .Price{
+        font-size: 28px;
+    }
+    .Price-2{
+        font-size: 28px;
+    }
+    .Under{
+        width: 1300px;
+        display: block;
+        font-size: 28px;
+        text-indent: 20px;
+    }
+
+    .Footer-In4{
+        width: 1300px;
+        font-size: 28px;
+        margin-top: 30px;
+    }
+
+}
+
+@media(max-width: 768px) {
+    .Container {
+        max-width: 720px;
+    }
+    *{
+        font-family: 'Quicksand', sans-serif!important;
+        margin: 0;
+        padding: 0;
+    }
+    .Container {
+        max-width: 540px;
+    }
+    .Container h1{
+        font-weight: 700;
+        font-size: 48px;
+        margin-left: 300px;
+    }
+    .Top-Content{
+        width: 1300px;
+        font-size: 32px;
+    }
+    .Logo{
+        width: 1300px;
+    }
+    .Logo img{
+        width: 500px;
+    }
+    .Icon-Header-Menu{
+        float: right;
+        margin-right: 250px;
+        width: 28px;
+        height: 28px;
+        color: black;
+        display: block;
+    }
+    .Header-Menu-Mobile{
+        display: block;
+        text-decoration: none;
+        font-size: 1.4em;
+        color: black;
+        padding: 8px 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 320px;
+        max-width: 100%;
+        background: whitesmoke;
+        transform: translateX(-100%);
+        margin-top: 150px;
+        /* margin-bottom: 1720px; */
+    }
+    .Header-Menu-Mobile ul{
+        display: block;
+        margin-top: 32px;
+        margin-left: 32px;
+        font-size: 24px;
+    }
+    .nav-input{
+        display: none;
+    }
+    .nav-input:checked ~ .Header-Menu-Mobile{
+        transform: translateX(0%);
+    }
+    .Icon-Close{
+        width: 28px;
+        height: 28px;
+        color: #666;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+
+    }
+    .Header-Menu{
+        display: none;
+    }
+   
+    .Banner{
+        width: 1300px;
+    }
+    .List-Products-1{
+        float: right;
+        display: block;
+        padding-left: 141px;
+        margin-right: -133px;
+    }
+    .List-Products-1 img{
+        width: 450px;
+       
+    }
+    .Name{
+        font-size: 28px;
+    }
+    .Price{
+        font-size: 28px;
+    }
+    .Price-2{
+        font-size: 28px;
+    }
+    .Under{
+        width: 1300px;
+        display: block;
+        font-size: 28px;
+        text-indent: 20px;
+    }
+
+    .Footer-In4{
+        width: 1300px;
+        font-size: 28px;
+        margin-top: 30px;
+    }
+}
+ @media(max-width: 992px) {
+        .Container {
+            max-width: 960px;
+        }
+    }
+@media(max-width: 1200px) {
+        .Container {
+            max-width: 960px;
+        }
+        
+    }

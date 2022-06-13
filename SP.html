@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tất cả sản phẩm - TOKAGO</title>
+    <link rel="stylesheet" href="SP.css">
+    <style>
+        .Container {
+            width: 1500px;
+            margin: auto;
+            padding: auto;
+        }
+
+        .Container h1 {
+            margin-left: 100px;
+        }
+
+        .DMSP {
+            float: left;
+            width: 200px;
+            height: 500px;
+            /* border:1px solid #333; */
+
+        }
+
+        .Prd {
+            float: right;
+            width: 1200px;
+            margin-top: -20px;
+            margin-bottom: 100px;
+            /* border:1px solid #333; */
+        }
+
+        .Group-Menu-1 a {
+            text-decoration: none;
+        }
+
+        .SXP {
+            margin-right: 90px;
+            float: right;
+        }
+
+        .Page {
+            text-align: center;
+            font-size: 25px;
+            margin-bottom: 50px;
+        }
+
+        .Page a {
+            text-decoration: none;
+        }
+
+        .Page a:hover {
+            color: red;
+        }
+
+        .Product-Menu a:hover {
+            color: red;
+        }
+
+        .Name a {
+            text-decoration: none;
+        }
+
+        .Name a:hover {
+            color: red;
+        }
+
+        .Size-Menu li {
+            display: inline-block;
+            padding: 5px;
+
+        }
+
+        .Price-Menu label {
+            color: #252a2b;
+        }
+
+        .Price-Menu label:hover {
+            color: red;
+        }
+
+        .Title-1 {
+            font-size: larger;
+            padding: 5px;
+        }
+
+        .Title-2 {
+            font-size: larger;
+            padding: 5px;
+        }
+
+        .Title-3 {
+            font-size: larger;
+            padding: 5px;
+        }
+
+        .Title-4 {
+            font-size: larger;
+            padding: 5px;
+        }
+
+        .Product-Menu a {
+            color: #252a2b;
+        }
+
+        footer {
+            clear: both
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="Top-Content">
+            <p>Miễn phí vận chuyển đơn hàng từ 300K</p>
+        </div>
+        <div class="Logo">
+            <img src="img/Logo.png" />
+        </div>
+        <div class="Header-Menu">
+            <ul>
+                <li><a href="index.html">TRANG CHỦ</a></li>
+                <li><a href="SP.html">SẢN PHẨM</a></li>
+                <li><a href="">BẢNG SIZE</a></li>
+                <li><a href="AB.html">VỀ TOKAGO</a></li>
+                <li><a href="DK.html">ĐĂNG KÝ / ĐĂNG NHẬP</a></li>
+            </ul>
+        </div>
+
+        <div class="Banner">
+            <img src="img/Banner SP.jpg" />
+        </div>
+    </header>
+    </br>
+
+    <div class="Container">
+        <div class="DMSP">
+            <div class="Group-Menu-1">
+                <div class="Title-1">
+                    Danh Mục Sản Phẩm
+                </div>
+                <div class="Content-Menu">
+                    <ul class="Product-Menu">
+                        <li class="">
+                            <span></span>
+                            <a class=" current" href="" title="Tất cả sản phẩm">
+                                Tất cả sản phẩm
+                            </a>
+                        </li>
+                        <li class="">
+                            <span></span>
+                            <a class="" href="" title="Basic T-shirt/Short">
+                                Basic T-shirt/Short
+                            </a>
+                        </li>
+                        <li class="">
+                            <span></span>
+                            <a class="" href="" title="Streetwear T-shirt">
+                                Streetwear T-shirt
+                            </a>
+                        </li>
+                        <li class="">
+                            <span></span>
+                            <a class="" href="" title="Parttern Shirt/Short">
+                                Parttern Shirt/Short
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </br>
+
+            <div class="Group-Menu-2">
+                <div class="Title-2">
+                    Giá Sản Phẩm
+                </div>
+                <div class="Content-Menu">
+                    <ul class="Price-Menu">
+                        <li>
+                            <input type="checkbox" id="p1" name="cc" data-price="(price:product<=100000)" />
+                            <label for="p1">
+                                <span>Dưới</span> 100,000₫
+                            </label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="p2" name="cc"
+                                data-price="((price:product>100000)&amp;&amp;(price:product<=200000))" />
+                            <label for="p2">
+                                100,000₫ - 200,000₫
+                            </label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="p3" name="cc"
+                                data-price="((price:product>200000)&amp;&amp;(price:product<=300000))" />
+                            <label for="p3">
+                                200,000₫ - 300,000₫
+                            </label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="p4" name="cc"
+                                data-price="((price:product>300000)&amp;&amp;(price:product<=500000))" />
+                            <label for="p4">
+                                300,000₫ - 500,000₫
+                            </label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="p5" name="cc" data-price="(price:product>=500000)" />
+                            <label for="p5">
+                                <span>Trên</span> 500,000₫
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </br>
+
+            <div class="Group-Menu-3">
+                <div class="Title-3">
+                    Kích Thước
+                </div>
+                <div class="Content-Menu">
+                    <ul class="Size-Menu">
+                        <li>
+                            <label for="data-size-p1">S</label>
+                        </li>
+    
+                        <li>
+                            <label for="data-size-p2">M</label>
+                        </li>
+    
+                        <li>
+                            <label for="data-size-p3">L</label>
+                        </li>
+    
+                        <li>
+                            <label for="data-size-p4">XL</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="Group-Menu-4">
+                <div class="Content-Menu">
+                    <div class="Title-4">
+                        Màu sắc
+                    </div>
+                    <div class="Menu-Color">
+                        <ul class="Color">
+                            <li style="list-style:none">
+                                <input type="button" for="data-color-p1"
+                                    style="background-color: #ff197b; border: 0px solid ; width: 20px; height: 20px; float: left; margin: 5px; "></input>
+                            </li>
+                            <li style="list-style:none">
+                                <input type="button" for="data-color-p2"
+                                    style="background-color:  #ffd32a; border: 0px solid ; width: 20px; height: 20px; float: left; margin: 5px; "></input>
+                            </li>
+                            <li style="list-style:none">
+                                <input type="button" for="data-color-p3"
+                                    style="background-color:  #757575; border: 0px solid ; width: 20px; height: 20px; float: left; margin: 5px; "></input>
+                            </li>
+                            <li style="list-style:none">
+                                <input type="button" for="data-color-p4"
+                                    style="background-color:  #3c40c6; border: 0px solid ; width: 20px; height: 20px;float: left; margin: 5px; "></input>
+                            </li>
+                            <li style="list-style:none">
+                                <input type="button" for="data-color-p5"
+                                    style="background-color:  #0be881; border: 0px solid ; width: 20px; height: 20px; margin: 5px; "></input>
+                            </li>
+                            <li style="list-style:none">
+                                <input type="button" for="data-color-p6"
+                                    style="background-color:  #f53b57; border: 0px solid ; width: 20px; height: 20px; float: left; margin: 5px; "></input>
+                            </li>
+                            <li style="list-style:none">
+                                <input type="button" for="data-color-p7"
+                                    style="background-color:  #0fbcf9; border: 0px solid ; width: 20px; height: 20px; float: left; margin: 5px; "></input>
+                            </li>
+                            <li style="list-style:none">
+                                <input type="button" for="data-color-p8"
+                                    style="background-color:  #000000; border: 0px solid ; width: 20px; height: 20px; float: left; margin: 5px; "></input>
+                            </li>
+                            <li style="list-style:none">
+                                <input type="button" for="data-color-p9"
+                                    style="background-color:  #ff3f34; border: 0px solid ; width: 20px; height: 20px; float: left; margin: 5px; "></input>
+                            </li>
+                            <li style="list-style:none">
+                                <input type="button" for="data-color-p10"
+                                    style="background-color:  #ce9dfd; border: 0px solid ; width: 20px; height: 20px; margin: 5px; "></input>
+                            </li>
+                            <li style="list-style:none">
+                                <input type="button" for="data-color-p11"
+                                    style="background-color:  #6ab04c; border: 0px solid ; width: 20px; height: 20px; float: left; margin: 5px; "></input>
+                            </li>
+                            <li style="list-style:none">
+                                <input type="button" for="data-color-p12"
+                                    style="background-color:  #0c2461; border: 0px solid ; width: 20px; height: 20px; float: left; margin: 5px; "></input>
+                            </li>
+                            <li style="list-style:none">
+                                <input type="button" for="data-color-p13"
+                                    style="background-color:  #fa8231; border: 0px solid ; width: 20px; height: 20px; float: left; margin: 5px; "></input>
+                            </li>
+                            <li style="list-style:none">
+                                <input type="button" for="data-color-p14"
+                                    style="background-color:  #9bd8a5; border: 0px solid ; width: 20px; height: 20px; float: left; margin: 5px; "></input>
+                            </li>
+                            <li style="list-style:none">
+                                <input type="button" for="data-color-p15"
+                                    style="background-color:  #d4f5fe; border: 0px solid ; width: 20px; height: 20px; margin: 5px; "></input>
+                            </li>
+                            <li style="list-style:none">
+                                <input type="button" for="data-color-p16"
+                                    style="background-color:  #fff3cb; border: 0px solid ; width: 20px; height: 20px; float: left; margin: 5px; "></input>
+                            </li>
+                            <li style="list-style:none">
+                                <input type="button" for="data-color-p17"
+                                    style="background-color:  #eee1a8; border: 0px solid ; width: 20px; height: 20px; float: left; margin: 5px; "></input>
+                            </li>
+                            <li style="list-style:none">
+                                <input type="button" for="data-color-p18"
+                                    style="background-color:  #ff9db4; border: 0px solid ; width: 20px; height: 20px; float: left; margin: 5px; "></input>
+                            </li>
+                            <li style="list-style:none">
+                                <input type="button" for="data-color-p19"
+                                    style="background-color:  #ffa180; border: 0px solid ; width: 20px; height: 20px; float: left; margin: 5px; "></input>
+                            </li>
+                            <li style="list-style:none">
+                                <input type="button" for="data-color-p20"
+                                    style="background-color:  rosybrown; border: 0px solid ; width: 20px; height: 20px; float: left; margin: 5px; "></input>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Prd">
+            <h1>Tất cả sản phẩm</h1>
+            <div class="Prd-1">
+                <div class="List-Products-1">
+                    <div class="Products-1">
+                        <div class="IMG"><img src="img/TG-9.jpg" width="260px" /></div>
+                        <div class="Name"><a href="CTSP.html">Basic Tee Oversize Version 2</a></div>
+                        <div class="Price">159,000đ</div>
+                        <div class="Price-2">199,000đ</div>
+                    </div>
+
+                    <div class="Products-1">
+                        <div class="IMG"><img src="img/TG-10.jpg" width="260px" /></div>
+                        <div class="Name"><a href="CTSP.html">Basic Tee Oversize Version 2</a></div>
+                        <div class="Price">159,000đ</div>
+                        <div class="Price-2">199,000đ</div>
+                    </div>
+
+                    <div class="Products-1">
+                        <div class="IMG"><img src="img/TG-11.jpg" width="260px" /></div>
+                        <div class="Name"><a href="CTSP.html">Basic Tee Oversize Version 2</a></div>
+                        <div class="Price">159,000đ</div>
+                        <div class="Price-2">199,000đ</div>
+                    </div>
+
+                    <div class="Products-1">
+                        <div class="IMG"><img src="img/TG-12.jpg" width="260px" /></div>
+                        <div class="Name"><a href="CTSP.html">Basic Tee Oversize Version 2</a></div>
+                        <div class="Price">159,000đ</div>
+                        <div class="Price-2">199,000đ</div>
+                    </div>
+                </div>
+                <div class="List-Products-1">
+                    <div class="Products-2">
+                        <div class="IMG"><img src="img/TG-13.jpg" width="260px" /></div>
+                        <div class="Name"><a href="CTSP.html">Basic Tee Oversize Version 2</a></div>
+                        <div class="Price">159,000đ</div>
+                        <div class="Price-2">199,000đ</div>
+                    </div>
+
+                    <div class="Products-2">
+                        <div class="IMG"><img src="img/TG-14.jpg" width="260px" /></div>
+                        <div class="Name"><a href="CTSP.html">Basic Tee Oversize Version 2</a></div>
+                        <div class="Price">159,000đ</div>
+                        <div class="Price-2">199,000đ</div>
+                    </div>
+
+                    <div class="Products-2">
+                        <div class="IMG"><img src="img/TG-15.jpg" width="260px" /></div>
+                        <div class="Name"><a href="CTSP.html">Basic Tee Oversize Version 2</a></div>
+                        <div class="Price">159,000đ</div>
+                        <div class="Price-2">199,000đ</div>
+                    </div>
+                    <div class="Products-2">
+                        <div class="IMG"><img src="img/TG-16.jpg" width="260px" /></div>
+                        <div class="Name"><a href="CTSP.html">Basic Tee Oversize Version 2</a></div>
+                        <div class="Price">159,000đ</div>
+                        <div class="Price-2">199,000đ</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Prd-2">
+
+                <div class="List-Products-1">
+                    <div class="Products-1">
+                        <div class="IMG"><img src="img/TG-9.jpg" width="260px" /></div>
+                        <div class="Name"><a href="CTSP.html">Basic Tee Oversize Version 2</a></div>
+                        <div class="Price">159,000đ</div>
+                        <div class="Price-2">199,000đ</div>
+                    </div>
+
+                    <div class="Products-1">
+                        <div class="IMG"><img src="img/TG-10.jpg" width="260px" /></div>
+                        <div class="Name"><a href="CTSP.html">Basic Tee Oversize Version 2</a></div>
+                        <div class="Price">159,000đ</div>
+                        <div class="Price-2">199,000đ</div>
+                    </div>
+
+                    <div class="Products-1">
+                        <div class="IMG"><img src="img/TG-11.jpg" width="260px" /></div>
+                        <div class="Name"><a href="CTSP.html">Basic Tee Oversize Version 2</a></div>
+                        <div class="Price">159,000đ</div>
+                        <div class="Price-2">199,000đ</div>
+                    </div>
+
+                    <div class="Products-1">
+                        <div class="IMG"><img src="img/TG-12.jpg" width="260px" /></div>
+                        <div class="Name"><a href="CTSP.html">Basic Tee Oversize Version 2</a></div>
+                        <div class="Price">159,000đ</div>
+                        <div class="Price-2">199,000đ</div>
+                    </div>
+                </div>
+                <div class="List-Products-1">
+                    <div class="Products-2">
+                        <div class="IMG"><img src="img/TG-13.jpg" width="260px" /></div>
+                        <div class="Name"><a href="CTSP.html">Basic Tee Oversize Version 2</a></div>
+                        <div class="Price">159,000đ</div>
+                        <div class="Price-2">199,000đ</div>
+                    </div>
+
+                    <div class="Products-2">
+                        <div class="IMG"><img src="img/TG-14.jpg" width="260px" /></div>
+                        <div class="Name"><a href="CTSP.html">Basic Tee Oversize Version 2</a></div>
+                        <div class="Price">159,000đ</div>
+                        <div class="Price-2">199,000đ</div>
+                    </div>
+
+                    <div class="Products-2">
+                        <div class="IMG"><img src="img/TG-15.jpg" width="260px" /></div>
+                        <div class="Name"><a href="CTSP.html">Basic Tee Oversize Version 2</a></div>
+                        <div class="Price">159,000đ</div>
+                        <div class="Price-2">199,000đ</div>
+                    </div>
+                    <div class="Products-2">
+                        <div class="IMG"><img src="img/TG-16.jpg" width="260px" /></div>
+                        <div class="Name"><a href="CTSP.html">Basic Tee Oversize Version 2</a></div>
+                        <div class="Price">159,000đ</div>
+                        <div class="Price-2">199,000đ</div>
+                    </div>
+                </div>
+                <div class="Page">
+                    <span class="page-node current">1</span>
+                    <a class="page-node" href="">2</a>
+                    <a class="page-node" href="">3</a>
+                    <a class="page-node" href="">...</a>
+                    <a class="page-node" href="">7</a>
+                    <a class="page-node" href="">8</a>
+                    <a class="page-node" href="">9</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="Under">
+            <div class="N-1">
+                <div class="Footer-Content1">
+                    <h3>Giới Thiệu</h3>
+                </div>
+                <div class="Footer-Content2">
+                    <p>TOKAGO xuất hiện với "sứ mệnh" đem những sản phẩm "xịn xò" và chất lượng đến các cậu.
+                        Dù các cậu là ai, nam hay nữ, mập hay ốm, bao nhieeu tuổi,...thì cậu đều có thể tìm được
+                        những
+                        sản phẩm
+                        phù hợp với chính mình tại TOKAGO tụi tớ!</p>
+                </div>
+                <div class="Footer-Logo">
+                    <img src="img/Logo Footer.png" />
+                </div>
+            </div>
+
+            <div class="N-2">
+                <h3>Liên Kết</h3>
+                <div class="Footer-Menu">
+                    <ul>
+                        <li><a href="">Tìm kiếm</a></li>
+                        <li><a href="">Hướng dẫn mua hàng</a></li>
+                        <li><a href="">Chính sách đổi trả</a></li>
+                        <li><a href="">Giới thiệu</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="N-3">
+                <h3>Liên Hệ</h3>
+                <ul>
+                    <li>0935468857</li>
+
+                    <li>luandhvps21938@fpt.edu.vn</li>
+                </ul>
+            </div>
+        </div>
+        <div class="Footer-In4">
+            <p>Copyright © 2022 TOKAGO Powered by Naul </p>
+        </div>
+    </footer>
+</body>
+
+</html>
